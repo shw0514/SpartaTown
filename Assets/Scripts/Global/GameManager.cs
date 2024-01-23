@@ -39,7 +39,10 @@ public class GameManager : MonoBehaviour
 
         PlayerAnimator.runtimeAnimatorController = character.AnimatorController;
         PlayerName.text = name;
-        
     }
 
+    public void SetName(string name)
+    {
+        PlayerName.text = name;
+    }
 }
